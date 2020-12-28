@@ -76,7 +76,7 @@ def getIVData(input):
     print(put_raw )
     print(mean_raw)
 # Getting the csv file
-with open('/home/user/Desktop/projects/trading-platform/webscraper/data/cboesymboldirweeklys.csv', 'r') as csv_file:
+with open('webscraper/data/cboesymboldirweeklys.csv', 'r') as csv_file:
     ## reading the data from a csv file
     symbols = csv.reader(csv_file)
     ## our csv contains the header, so we need to start our loop from the second line
